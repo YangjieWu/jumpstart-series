@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start"
   },
   "dependencies": {
     "mongodb": "^3.5.9",
